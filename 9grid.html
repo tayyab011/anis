@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.gm{
+
+display: grid;
+grid-template-columns: auto  auto auto  auto  auto  auto;
+flex-wrap: wrap;
+
+
+
+}
+.gm >div{
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    background:green;
+   border: 1px solid black;
+
+}
+.gm >div:nth-child(1){
+grid-column: 1/7;
+
+
+text-align: center;
+padding: auto 0;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="gm">
+        <div >header</div>
+        <div >Menu</div>
+        <div >Main</div>
+        <div >Aside</div>
+        <div >footer</div>
+        <div >header</div>
+       
+        
+    </div>
+    <h2>tayyyyyab</h2>
+</body>
+</html>
